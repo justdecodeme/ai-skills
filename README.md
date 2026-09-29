@@ -1,7 +1,6 @@
-# Agentic Skills --- Detailed Learning Guide
+# Agentic Skills - Detailed Guide
 
-> A practical guide to designing, building, composing, testing,
-> securing, and distributing AI Agent Skills using `SKILL.md`.
+> A practical guide to designing, building, composing, testing, securing, and distributing AI Agent Skills using `SKILL.md`.
 
 ---
 
