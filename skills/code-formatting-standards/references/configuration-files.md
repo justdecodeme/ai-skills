@@ -26,10 +26,10 @@ Example:
 
 ```js
 module.exports = {
-	semi: true,
-	singleQuote: true,
-	tabWidth: 2,
-	trailingComma: 'all',
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: "all",
 };
 ```
 
@@ -87,7 +87,7 @@ A formatting setup may include settings conceptually equivalent to:
 
 ```json
 {
-	"editor.formatOnSave": true
+  "editor.formatOnSave": true
 }
 ```
 
@@ -103,10 +103,10 @@ Example:
 
 ```json
 {
-	"scripts": {
-		"format": "prettier --write .",
-		"format:check": "prettier --check ."
-	}
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  }
 }
 ```
 
@@ -179,6 +179,6 @@ Before approving a shared configuration, verify that:
 - `.editorconfig`, formatter settings, and line-ending policy do not conflict;
 - VS Code selects the same formatter that CI runs;
 - both a write command and a non-mutating check are available when the project supports them;
-- the documentation does not claim an unverified rule is an official Lenovo standard.
+- the documentation does not claim an unverified rule is an official organization or team standard.
 
 Configuration changes should be tested on one representative source file before a repository-wide format. Review the diff for logic changes, renamed strings, line-ending churn, and unexpected files.

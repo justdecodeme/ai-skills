@@ -1,5 +1,5 @@
 ---
-name: lenovo-code-formatting-standards
+name: code-formatting-standards
 description: Help developers understand, apply, and troubleshoot standardized code-formatting practices across projects, languages, repositories, and development environments. Use this skill when explaining formatting rules, reviewing code for formatting consistency, setting up formatter configuration, configuring editor tooling, or troubleshooting formatting issues.
 license: MIT
 allowed-tools:
@@ -8,7 +8,7 @@ allowed-tools:
   - Glob
 compatibility: VS Code Copilot Skill Hub
 metadata:
-  data-classification: internal
+  data-classification: public
   network-egress: none
   scopes:
     - code-formatting
@@ -26,9 +26,9 @@ This is a standalone knowledge skill. It does not require MCP, backend access, A
 
 ## Provenance and License
 
-This skill is Lenovo-authored internal guidance for code-formatting workflows. The included examples and tables are synthetic, generic material created for this skill; no third-party source text, proprietary repository content, credentials, or external assets are bundled.
+This skill provides generic guidance for code-formatting workflows. The included examples and tables are synthetic material created for this skill; no third-party source text, proprietary repository content, credentials, or external assets are bundled.
 
-This material is provided under the MIT license. Lenovo teams may apply additional Skill Hub distribution controls where required by internal policy.
+This material is provided under the MIT license and may be used, copied, modified, and distributed in accordance with that license.
 
 ## Operating Contract
 
@@ -397,7 +397,7 @@ When a formatter changes many unrelated lines:
 - Do not require MCP or system access for normal use of this skill.
 - Do not upload or include proprietary source, credentials, internal URLs, or user data in a skill ZIP.
 - Keep bundled examples synthetic and free of secrets.
-- If a rule depends on a Lenovo team or product standard that is not included in the skill, label it as an assumption and request the approved source rather than inventing it.
+- If a rule depends on a team or product standard that is not included in the skill, label it as an assumption and request the approved source rather than inventing it.
 
 ## Bundled References
 
