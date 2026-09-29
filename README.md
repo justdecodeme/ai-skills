@@ -753,17 +753,17 @@ of Skill information at once.
 A typical flow is:
 
 ```text
-Stage 1 — Discovery
+Stage 1 - Discovery
 name + description
 
         ↓
 
-Stage 2 — Activation
+Stage 2 - Activation
 full SKILL.md
 
         ↓
 
-Stage 3 — Execution
+Stage 3 - Execution
 scripts/references/assets as needed
 ```
 
@@ -1139,7 +1139,7 @@ This is especially important for scripts.
 
 A practical process for creating a Skill:
 
-### Step 1 --- Identify a repeatable task
+### Step 1 - Identify a repeatable task
 
 Good Skill candidates:
 
@@ -1163,7 +1163,7 @@ answer this one specific question
 
 Skills should represent reusable capabilities.
 
-### Step 2 --- Write the desired workflow manually
+### Step 2 - Write the desired workflow manually
 
 Before writing the Skill, write:
 
@@ -1182,7 +1182,7 @@ Output:
 Performance report
 ```
 
-### Step 3 --- Convert the workflow into instructions
+### Step 3 - Convert the workflow into instructions
 
 ```markdown
 ## Workflow
@@ -1196,7 +1196,7 @@ Performance report
 7. Produce a stakeholder-friendly report.
 ```
 
-### Step 4 --- Identify reusable references
+### Step 4 - Identify reusable references
 
 Move detailed information out:
 
@@ -1207,7 +1207,7 @@ references/
 └── optimization-patterns.md
 ```
 
-### Step 5 --- Identify deterministic operations
+### Step 5 - Identify deterministic operations
 
 If something is better handled by code:
 
@@ -1219,7 +1219,7 @@ scripts/
 Do not ask the LLM to manually calculate something deterministic if a
 script can do it reliably.
 
-### Step 6 --- Test with realistic prompts
+### Step 6 - Test with realistic prompts
 
 Test:
 
